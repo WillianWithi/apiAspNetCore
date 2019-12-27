@@ -13,7 +13,7 @@ namespace APICSHARP.Models
     [Table("cliente_telefone")]
     public class ClienteTelefone 
     {
-        [Column("id")]
+        [Column("id")] 
         public int Id { get; set; }
 
         [Column("telefone")]
